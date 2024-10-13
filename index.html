@@ -29,6 +29,7 @@
                         clifford: '#da373d',
                         'color-black-1': '#1C1C1C',
                         'color-gray-1': '#777',
+                        'color-gray-2': '#494949',
                     }
                 }
             }
@@ -36,14 +37,15 @@
     </script>
 </head>
 
-<body class="bg-white font-manrope py-20">
+<body class="bg-white font-manrope pt-20">
     <!-- header section  -->
-    <header class="container mx-auto">
-        <div class="hero">
-            <div class="hero-content flex-col lg:flex-row-reverse">
+    <header class="container mx-auto px-5 lg:px-24">
+        <div class="">
+            <div class="flex justify-between items-center flex-col lg:flex-row-reverse">
                 <div class="relative">
-                    <img src="/images/banner.png" class="max-w-sm" />
-                    <div class="-mt-20 flex items-center gap-4 drop-shadow-lg bg-white p-5 w-60 rounded-xl">
+                    <img src="/images/banner.png" class="" />
+                    <!-- badge -->
+                    <div class="-mt-28 ml-20 flex items-center gap-4 drop-shadow-lg bg-white p-5 w-64 rounded-xl">
                         <i class="fa-solid fa-star text-4xl text-yellow-400"></i>
                         <div>
                             <h3 class="text-3xl font-extrabold text-color-black-1">5.00</h3>
@@ -51,8 +53,8 @@
                         </div>
                     </div>
                 </div>
-                <div>
-                    <h1 class="text-7xl font-extrabold text-color-black-1">It's good <br> tea time at The <br>Tea House
+                <div class="mt-20 lg:mt-0 md: max-w-96 lg:max-w-xl">
+                    <h1 class="text-5xl md:text-7xl font-extrabold text-color-black-1 leading-normal">It's good <br> tea time at The Tea House
                     </h1>
                     <p class="py-6 text-lg font-medium text-color-gray-1">
                         Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
@@ -65,7 +67,7 @@
         </div>
     </header>
     <!-- main section -->
-    <main class="container mx-auto">
+    <main class="container mx-auto lg:px-24">
         <!-- feature products section -->
         <section class="text-center my-36">
             <h1 class="text-5xl font-extrabold text-color-black-1 mb-5">Our Featured Products</h1>
@@ -225,53 +227,104 @@
             <div class="mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                 <div class="card lg:w-96 border-[#D2D2D2] shadow-xl">
                     <figure class="px-10 pt-10">
-                        <img src="/images/news-1.png"
-                            alt="news" class="rounded-xl" />
+                        <img src="/images/news-1.png" alt="news" class="rounded-xl" />
                     </figure>
                     <div class="card-body text-left">
                         <p class="text-base font-medium text-color-gray-1">Feb 05, 2027</p>
                         <h4 class="text-xl font-extrabold text-color-black-1">Collecting 8 points for discount</h4>
-                        <p class="text-base font-medium text-color-gray-1">There are many variations of passages of Lorem Ipsum available.</p>
+                        <p class="text-base font-medium text-color-gray-1">There are many variations of passages of
+                            Lorem Ipsum available.</p>
                         <div class="card-actions">
-                           <a class="text-base font-bold text-color-black-1" href="">Learn More</a>
+                            <a class="text-base font-bold text-color-black-1" href="">Learn More</a>
                         </div>
                     </div>
                 </div>
                 <div class="card lg:w-96 border-[#D2D2D2] shadow-xl">
                     <figure class="px-10 pt-10">
-                        <img src="/images/news-2.png"
-                            alt="news" class="rounded-xl" />
+                        <img src="/images/news-2.png" alt="news" class="rounded-xl" />
                     </figure>
                     <div class="card-body text-left">
                         <p class="text-base font-medium text-color-gray-1">Feb 05, 2027</p>
                         <h4 class="text-xl font-extrabold text-color-black-1">Collecting 8 points for discount</h4>
-                        <p class="text-base font-medium text-color-gray-1">There are many variations of passages of Lorem Ipsum available.</p>
+                        <p class="text-base font-medium text-color-gray-1">There are many variations of passages of
+                            Lorem Ipsum available.</p>
                         <div class="card-actions">
-                           <a class="text-base font-bold text-color-black-1" href="">Learn More</a>
+                            <a class="text-base font-bold text-color-black-1" href="">Learn More</a>
                         </div>
                     </div>
                 </div>
                 <div class="card lg:w-96 border-[#D2D2D2] shadow-xl">
                     <figure class="px-10 pt-10">
-                        <img src="/images/news-3.png"
-                            alt="news" class="rounded-xl" />
+                        <img src="/images/news-3.png" alt="news" class="rounded-xl" />
                     </figure>
                     <div class="card-body text-left">
                         <p class="text-base font-medium text-color-gray-1">Feb 05, 2027</p>
                         <h4 class="text-xl font-extrabold text-color-black-1">Collecting 8 points for discount</h4>
-                        <p class="text-base font-medium text-color-gray-1">There are many variations of passages of Lorem Ipsum available.</p>
+                        <p class="text-base font-medium text-color-gray-1">There are many variations of passages of
+                            Lorem Ipsum available.</p>
                         <div class="card-actions">
-                           <a class="text-base font-bold text-color-black-1" href="">Learn More</a>
+                            <a class="text-base font-bold text-color-black-1" href="">Learn More</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section></section>
     </main>
     <!-- footer section  -->
-    <footer></footer>
+    <footer class="lg:px-32 py-36 font-manrope text-base-content p-10 bg-gradient-to-r from-[#FF00001A] to-[#FF89381A]">
+        <div class="flex gap-20 justify-between items-center">
+            <img src="/images//cup.png" alt="">
+            <div class="lg:mr-48">
+                <span class="mr-16 text-xl font-medium text-color-gray-2">Ready to get started?</span>
+                <button
+                    class="btn btn-primary font-manrope text-xl font-bold text-white bg-gradient-to-r from-orange-500 to-red-500 border-none">Get
+                    Started</button>
+            </div>
+        </div>
+        <div class="footer my-24">
+            <nav>
+                <h6 class="text-xl font-semibold text-color-black-1">Quick Links</h6>
+                <a class="text-base font-normal text-color-gray-2 hover:text-orange-600 hover:font-bold"
+                    href="">Home</a>
+                <a class="text-base font-normal text-color-gray-2 hover:text-orange-600 hover:font-bold">About</a>
+                <a class="text-base font-normal text-color-gray-2 hover:text-orange-600 hover:font-bold">Insurance</a>
+                <a class="text-base font-normal text-color-gray-2 hover:text-orange-600 hover:font-bold">Privacy
+                    Policy</a>
+            </nav>
+            <nav>
+                <h6 class="text-xl font-semibold text-color-black-1">Our Service</h6>
+                <a class="text-base font-normal text-color-gray-2 hover:text-orange-600 hover:font-bold">Life
+                    Insurance</a>
+                <a class="text-base font-normal text-color-gray-2 hover:text-orange-600 hover:font-bold">Car
+                    Insurance</a>
+                <a class="text-base font-normal text-color-gray-2 hover:text-orange-600 hover:font-bold">Health
+                    Insurance</a>
+                <a class="text-base font-normal text-color-gray-2 hover:text-orange-600 hover:font-bold">House
+                    Insurance</a>
+            </nav>
+            <nav>
+                <h6 class="text-xl font-semibold text-color-black-1">Help</h6>
+                <a class="text-base font-normal text-color-gray-2 hover:text-orange-600 hover:font-bold">FAQs</a>
+                <a class="text-base font-normal text-color-gray-2 hover:text-orange-600 hover:font-bold">Contact Us</a>
+            </nav>
+            <form>
+                <h6 class="text-xl font-semibold text-color-black-1">Subscribe to our newsletter</h6>
+                <fieldset class="form-control w-80">
+                    <div class="join mt-10">
+                        <input type="text" placeholder="Email Address"
+                            class="bg-transparent border-b-2 border-color-gray-2 outline-none w-64 py-4" />
+                        <button
+                            class="btn btn-primary font-manrope text-xl font-bold text-white bg-gradient-to-r from-orange-500 to-red-500 border-none rounded-full"><i
+                                class="fa-solid fa-chevron-right"></i>
+                        </button>
 
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <p class="text-center text-base font-medium text-color-gray-2">&#169; 2027 UIDesign.to - All rights reserved.
+        </p>
+    </footer>
 </body>
 
 </html>
